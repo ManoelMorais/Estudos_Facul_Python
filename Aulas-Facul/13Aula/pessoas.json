@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Maria",
+        "telefone": "79 99999-9999",
+        "idade": "13"
+    },
+    {
+        "nome": "Jo\u00e3o",
+        "telefone": "79 98888-8888",
+        "idade": "14"
+    },
+    {
+        "nome": "Clara",
+        "telefone": "79 97777-7777",
+        "idade": "15"
+    }
+]
