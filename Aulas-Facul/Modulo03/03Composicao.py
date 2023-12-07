@@ -1,8 +1,15 @@
+# import 04Datas
+# a importação não esta funcionando
+
 class Categoria:
     def __init__(self, tipo = ''):
         self.tipo = tipo
         
+        
     def taxaAgua(self, consumo):
+        
+        # print("Data de leitura:", 04Datas.formatarData())
+        
         match self.tipo:
             case 'Clinica': return consumo * 1.5
             case 'Casa': return consumo * 1
