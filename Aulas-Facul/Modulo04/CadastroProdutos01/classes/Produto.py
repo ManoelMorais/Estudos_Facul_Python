@@ -10,3 +10,12 @@ class Produto(AbstractCrud):
         self.quantidade = quantidade
         self.valor = valor
         
+    def inserir(self):
+        lista = self.Consultar()
+        produtoDuplicado = filter(lambda p: p['codigo'] == self.codigo, lista)
+        
+        if len(list(produtoDuplicado)):
+            print()
+            print("produto já existente")
+        else:
+            super().Inserire()
